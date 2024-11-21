@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">WeatherApp!</string>
+    <string name="HTTPS_API_URL">https://api.openweathermap.org/</string>
+
+    <string name="get_current_location">Get current Location</string>
+    <string name="app">App</string>
+    <string name="weather">weather</string>
+    <string name="logo">logo</string>
+    <string name="cloud">Cloud</string>
+    <string name="check">check</string>
+    <string name="you_need_to_enable_location_tracking_in_settings">You need to enable location tracking in settings</string>
+    <string name="location_required">Location Required</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="today">Today</string>
+    <string name="max_temp">Max.:%sº</string>
+    <string name="min_temp">Min.:%sº</string>
+    <string name="next_forecast">Next Forecast</string>
+    <string name="home">Home</string>
+    <string name="can_not_find_city_by_your_location">Can not find city by your location</string>
+    <string name="please_enter_valid_city_name">Please enter valid city name</string>
+    <string name="precipitations">Precipitations</string>
+
+
+</resources>

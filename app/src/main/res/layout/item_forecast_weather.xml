@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_hour_weather_main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/roundedHomeBackgroundColor"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingHorizontal="16dp">
+
+    <TextView
+        android:id="@+id/dayOfWeek_textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="start"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        tools:text="Monday" />
+
+    <ImageView
+        android:id="@+id/status_imageView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/ic_cloud"
+        android:contentDescription="@string/cloud" />
+
+    <TextView
+        android:id="@+id/temp_textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="end"
+        android:text="@{viewModel.uiState.maxTemp}"
+        android:textColor="@android:color/white"
+        android:textSize="16.sp"
+        android:textStyle="bold"
+        tools:text="13°C" />
+
+</LinearLayout>
